@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="909ce747-8b2b-4f48-9818-f635c11ef748" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/AddControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/BugValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/java/StartObjectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientFX/src/main/resources/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/com/model/Bug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/com/model/Gravitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/com/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/com/model/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/com/model/Utilizator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/com/networking/utils/AbsConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/com/networking/utils/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/com/networking/utils/ObjectConcurrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/com/networking/utils/ServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/AddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/BugRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/BugResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/ClientObjectWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/OkResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/ServicesObjectProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/SolveBugRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/UpdateBugResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking/src/main/java/objectprotocol/UpdateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistance/src/main/java/com/persistance/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistance/src/main/java/com/persistance/RepoBuguri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistance/src/main/java/com/persistance/RepoUtilizatori.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistance/src/main/java/com/persistance/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistance/src/main/resources/configBG.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/server/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/server/StartObjectServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/src/main/java/com/services/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/src/main/java/com/services/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/astaesteiss/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/astaesteiss/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/model/astaesteiss/hello-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ClientFX">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Model">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ClientFX">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2Pm8s1TIpwkpr5ISRNJXmxjEtZo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "D:/laptopv1/ISS/astaesteISS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dani7\OneDrive\Desktop\ISS\astaesteISS\ClientFX\src\main\resources" />
+      <recent name="C:\Users\dani7\OneDrive\Desktop\ISS\astaesteISS\ClientFX\src\main\java" />
+      <recent name="C:\Users\dani7\OneDrive\Desktop\ISS\astaesteISS\Client\src\main\java" />
+      <recent name="C:\Users\dani7\OneDrive\Desktop\ISS\astaesteISS\Client\src\main\java\com\client\client" />
+      <recent name="C:\Users\dani7\OneDrive\Desktop\ISS\astaesteISS\Client\src\main\resources\com\client\client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dani7\OneDrive\Desktop\ISS\astaesteISS\Client\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ClientFX:run">
+    <configuration name="ClientFX:run" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="StartObjectClient" />
+      <module name="astaesteISS.ClientFX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientFX [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ClientFX" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ClientFX [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ClientFX" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ClientFX:run" type="GradleRunConfiguration" factoryName="Gradle" singleton="false">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ClientFX" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="astaesteISS [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="astaesteISS" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientFX:run" />
+      <item itemvalue="Gradle.ClientFX:run" />
+      <item itemvalue="Gradle.astaesteISS" />
+      <item itemvalue="Gradle.astaesteISS [build]" />
+      <item itemvalue="Gradle.ClientFX [build]" />
+      <item itemvalue="Gradle.ClientFX [buildDependents]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ClientFX [build]" />
+        <item itemvalue="Gradle.ClientFX [buildDependents]" />
+        <item itemvalue="Gradle.astaesteISS [build]" />
+        <item itemvalue="Gradle.astaesteISS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="909ce747-8b2b-4f48-9818-f635c11ef748" name="Changes" comment="" />
+      <created>1684051101137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684051101137</updated>
+      <workItem from="1684051102472" duration="3740000" />
+      <workItem from="1684058688613" duration="706000" />
+      <workItem from="1684089111683" duration="5427000" />
+      <workItem from="1684101514211" duration="651000" />
+      <workItem from="1684102171160" duration="52000" />
+      <workItem from="1684102328666" duration="955000" />
+      <workItem from="1684133447716" duration="9467000" />
+      <workItem from="1684150472126" duration="1300000" />
+      <workItem from="1684155988688" duration="11000" />
+      <workItem from="1684609396161" duration="62000" />
+      <workItem from="1684823987441" duration="15000" />
+      <workItem from="1685089976333" duration="1456000" />
+      <workItem from="1685097779427" duration="5891000" />
+      <workItem from="1685211520417" duration="1811000" />
+      <workItem from="1685266252117" duration="84000" />
+      <workItem from="1685300139435" duration="2022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

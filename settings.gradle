@@ -1,0 +1,8 @@
+rootProject.name = "astaesteISS"
+include 'Model'
+include 'Persistance'
+include 'Networking'
+include 'Server'
+include 'Services'
+include 'ClientFX'
+
