@@ -1,3 +1,2 @@
 # ISS
-Laboratoarele la iss Grama Andrei Daniel 223
-model contine toate diagramele
+This repo contains university realted work, it shows designs of an app and also various diagrams for it.
